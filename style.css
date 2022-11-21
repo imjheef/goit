@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E5E5;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title-element-project {
+    background-color: aliceblue;
+}
+
+.main-container{
+    width: 1200px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.lateral-info{
+    margin-right: 20px;
+    margin-left: 20px;
+    color: beige;
+    background-color: darkslategray;
+    display: flex;
+    width: 370px;
+    flex-direction:row ;
+    border: solid red 2px;
+}
+
+.lateral-info, .contact, .tech-skills, .soft-skills{
+    margin-right: 20px;
+    margin-left: 20px; 
+}
