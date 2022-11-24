@@ -1,31 +1,75 @@
 body {
     display: flex;
-    flex-direction: column;
-    background-color: #E5E5E5;
+    flex-direction: row-reverse;
+    background-color: white;
     font-family: 'Montserrat', sans-serif;
 }
 
-.title-element-project {
-    background-color: aliceblue;
+li{
+    line-height: 24px;
 }
 
-.main-container{
+.main-container {
+    background-color: white;
     width: 1200px;
     display: flex;
-    flex-direction: row-reverse;
-}
-.lateral-info{
-    margin-right: 20px;
-    margin-left: 20px;
-    color: beige;
-    background-color: darkslategray;
-    display: flex;
-    width: 370px;
-    flex-direction:row ;
-    border: solid red 2px;
+    flex-direction: column;
 }
 
-.lateral-info, .contact, .tech-skills, .soft-skills{
+/* *lateral info */
+
+.lateral-info {
+    color: white;
+    background: #1E2939;
+    display: flex;
+    width: 370px;
+    flex-direction: row-reverse;
+    border: solid red 2px;
     margin-right: 20px;
-    margin-left: 20px; 
+    padding: 40px 0;
+}
+
+.contact,.tech-skills,.soft-skills {
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 24px;
+    color: white;
+    opacity: 0.5;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.contact-type {
+    color: white;
+    margin-right: 5px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+
+}
+
+.contact-info {
+    color: white;
+    opacity: 0.5;
+}
+
+/** list section */
+
+.lateral-list{
+    padding: 0;
+    padding-left: 17px;
+}
+
+.lateral-list > li{
+    color: orange;
+}
+
+.lateral-list-element{
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font: size 400px;
+    line-height: 24px;
 }
